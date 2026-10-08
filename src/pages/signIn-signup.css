@@ -1,0 +1,73 @@
+form{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 35%;
+    height: 330px;
+    justify-content: center;
+    background-color: lightgray;
+}
+
+form input{
+  width: 80%;
+  padding: 10px;
+  margin: 8px;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+    border-bottom: 2px solid darkolivegreen;
+    color: #000;
+}
+form button{
+  width: 40%;
+  padding: 10px;
+  margin: 8px;
+  outline: none;
+  border-radius: 8px;
+  border: none;
+  background-color: darkolivegreen;
+  color: aliceblue;
+  font-weight: bold ;  
+}
+
+/* Organize Forgot Password */
+.Forgotpassword{
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    width: 35%;
+    height: 330px;
+    position: fixed;
+    justify-content: center;
+    background-color: lightgray;
+    border: 2px solid red;
+    transition: all 1s;
+    scale: 0;
+}
+
+.show-showForm{
+  scale: 1.1;
+}
+
+.hide-showForm{
+  scale: 0;
+}
+.fa-solid.fa-xmark{
+  font-size: 18px;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  color: #000;
+  transition: all 1s;
+}
+.fa-solid.fa-xmark:hover{
+  color: orange;
+  font-size: 20px;
+  transform: rotate(360deg);
+}
+
+.setPass{
+    text-shadow: 3px 3px 0px #315b2c;
+}
